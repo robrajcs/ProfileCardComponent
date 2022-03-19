@@ -18,11 +18,13 @@ body {
     background-image: url("./images/bg-pattern-top.svg");
     background-image: url("./images/bg-pattern-bottom.svg");
     text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 
 main {
     min-height: 100vh;
-    border: 1px solid red;
     display: grid;
     grid-template-rows: 1fr auto;
     align-items: center;
@@ -35,7 +37,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid green;
     width: 350px;
     border-radius: 15px;
 
@@ -46,20 +47,42 @@ img {
     border-radius: 100px;
     border: 5px solid white;
 }
+.name {
+    font-weight: 700;
+    margin-top: 1rem;
+    color: var(--very-dark-desaturated-blue);
+}
+.age {
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+}
+.city {
+    font-size: .8rem;
+    margin: .6rem auto 1.2rem auto;
+    color: var(--dark-grayish-blue);    
+}
 
 .columns {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
+.column_number {
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+.column_name {
+    font-size: 0.6rem;
+    color: var(--dark-grayish-blue);    
+}
 
 hr {
     height: 1px;
-    width: 80%;
+    width: 100%;
+    color: var(--dark-gray);
 }
 
 .attribution { 
-    border: 1px solid blue;
     font-size: 11px; 
     text-align: center; 
 }
