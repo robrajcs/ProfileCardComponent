@@ -14,12 +14,13 @@
 body {
     margin: 0;
     padding: 0;
-    sbackground-color: var(--dark-cyan);
-    sbackground: var(--dark-cyan) url("./images/bg-pattern-top.svg") 120% -20% no-repeat;
-    background: var(--dark-cyan) url("./images/bg-pattern-bottom.svg") 160% -70% no-repeat;
+    background-color: var(--dark-cyan);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: -750px -600px, 200px 250px;
+    background-repeat: no-repeat, no-repeat;
     text-align: center;
     font-family: "Kumbh Sans";
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
@@ -60,6 +61,7 @@ img {
 .age {
     font-weight: 400;
     color: var(--dark-grayish-blue);
+    font-size: 17px;    
 }
 .city {
     font-size: .8rem;
@@ -99,6 +101,12 @@ hr {
 
 
 @media screen and (min-width:1440px) {
+    body {
+        background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+        background-position: -300px -600px, 600px 320px;
+    
+    }
+
     section {
         box-shadow: 15px 15px 10px rgba(100,100,100,.2);   
     }
