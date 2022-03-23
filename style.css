@@ -16,7 +16,7 @@ body {
     padding: 0;
     background-color: var(--dark-cyan);
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-position: -750px -600px, 200px 250px;
+    background-position: right 50vw top -75vh, left 50vw top 41vh;
     background-repeat: no-repeat, no-repeat;
     text-align: center;
     font-family: "Kumbh Sans";
@@ -103,7 +103,7 @@ hr {
 @media screen and (min-width:1440px) {
     body {
         background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-        background-position: -300px -600px, 600px 320px;
+        background-position: right 50vw top -55vh, left 50vw top 41vh;
     
     }
 
